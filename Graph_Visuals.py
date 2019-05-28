@@ -93,8 +93,52 @@ data = {'sports' : df_sports['PriceFinal'].mean(),
 
 fig, axs = plt.subplots(figsize=(16,14))
 plt.title('Genre Game Costs Average')
-names = list(data.keys())
+names = list(data.keys()) 
 values = list(data.values())
 axs.bar(names,values)
 plt.xticks(rotation=90)
 plt.savefig('images/GenreGameCostsAvgBar.png')
+
+
+data = {'action' : df_action['SteamSpyOwners'].sum(),
+'indie' : df_indie['SteamSpyOwners'].sum(),
+'adventure' : df_adventure['SteamSpyOwners'].sum(),
+'rpg' : df_rpg['SteamSpyOwners'].sum(),
+'strategy' : df_strategy['SteamSpyOwners'].sum(),
+'simulation' : df_simulation['SteamSpyOwners'].sum(),
+'casual' : df_casual['SteamSpyOwners'].sum(),
+'ftp' : df_ftp['SteamSpyOwners'].sum(),
+'earlyaccess' : df_earlyaccess['SteamSpyOwners'].sum(),
+'mmo' : df_mmo['SteamSpyOwners'].sum(),
+'racing' : df_racing['SteamSpyOwners'].sum(),
+'sports' : df_sports['SteamSpyOwners'].sum()}
+
+fig, axs = plt.subplots(figsize=(16,14))
+plt.title('Genre Game Owners')
+names = list(data.keys()) 
+values = list(data.values())
+axs.bar(names,values)
+plt.xticks(rotation=90)
+plt.savefig('images/GenreSteamSpyOwners.png')
+
+
+data = {'action' : df_action['SteamSpyPlayersEstimate'].sum(),
+'indie' : df_indie['SteamSpyPlayersEstimate'].sum(),
+'adventure' : df_adventure['SteamSpyPlayersEstimate'].sum(),
+'rpg' : df_rpg['SteamSpyPlayersEstimate'].sum(),
+'strategy' : df_strategy['SteamSpyPlayersEstimate'].sum(),
+'simulation' : df_simulation['SteamSpyPlayersEstimate'].sum(),
+'casual' : df_casual['SteamSpyPlayersEstimate'].sum(),
+'ftp' : df_ftp['SteamSpyPlayersEstimate'].sum(),
+'earlyaccess' : df_earlyaccess['SteamSpyPlayersEstimate'].sum(),
+'mmo' : df_mmo['SteamSpyPlayersEstimate'].sum(),
+'racing' : df_racing['SteamSpyPlayersEstimate'].sum(),
+'sports' : df_sports['SteamSpyPlayersEstimate'].sum()}
+
+fig, axs = plt.subplots(figsize=(16,14))
+plt.title('Genre Game players')
+names = list(data.keys()) 
+values = list(data.values())
+axs.bar(names,values)
+plt.xticks(rotation=90)
+plt.savefig('images/GenreSteamSpyPlayers.png')

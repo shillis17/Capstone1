@@ -18,10 +18,11 @@ df = df.drop(['QueryID','ResponseID','ResponseName',\
               'SupportedLanguages', 'Website', 'PCMinReqsText',\
                'PCRecReqsText','LinuxMinReqsText','LinuxRecReqsText',\
               'MacMinReqsText','MacRecReqsText','CategoryIncludeSrcSDK'],axis=1)
+print(df.columns)
 
-#Remove duplicate columns
+#Remove duplicate rows
 df = df.drop_duplicates()
-#Remove games that are no longer for sale and remove the column
+#Remove games that are no longer for sale and remove the row
 df = df[df.PurchaseAvail != False]
 df = df.drop(['PurchaseAvail'],axis=1)
 #Remove any non games as it will effect data of games

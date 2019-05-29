@@ -34,7 +34,7 @@ axs.bar(names,values)
 plt.xticks(rotation=90)
 plt.savefig('images/GenreFrequencyBar.png')
 
-fig, axs = plt.subplots(figsize=(20,20))
+fig, axs = plt.subplots(figsize=(20,16))
 plt.rcParams.update({'font.size': 22})
 plt.title('Genre Proportions')
 names = list(data.keys())
@@ -71,7 +71,7 @@ data = {'indie' : df_indie['PriceFinal'].sum(),
 'mmo' : df_mmo['PriceFinal'].sum(),
 'ftp' : df_ftp['PriceFinal'].sum()}
 
-fig, axs = plt.subplots(figsize=(20,20))
+fig, axs = plt.subplots(figsize=(20,16))
 plt.rcParams.update({'font.size': 22})
 plt.title('Genre Game Costs')
 names = list(data.keys())
@@ -94,7 +94,7 @@ data = {'sports' : df_sports['PriceFinal'].mean(),
 'casual' : df_casual['PriceFinal'].mean(),
 'ftp' : df_ftp['PriceFinal'].mean()}
 
-fig, axs = plt.subplots(figsize=(20,20))
+fig, axs = plt.subplots(figsize=(20,16))
 plt.rcParams.update({'font.size': 22})
 plt.title('Genre Game Costs Average')
 names = list(data.keys()) 
@@ -117,7 +117,7 @@ data = {'action' : df_action['SteamSpyOwners'].sum(),
 'racing' : df_racing['SteamSpyOwners'].sum(),
 'sports' : df_sports['SteamSpyOwners'].sum()}
 
-fig, axs = plt.subplots(figsize=(20,20))
+fig, axs = plt.subplots(figsize=(20,16))
 plt.rcParams.update({'font.size': 22})
 plt.title('Genre Game Owners')
 names = list(data.keys()) 
@@ -140,7 +140,7 @@ data = {'action' : df_action['SteamSpyPlayersEstimate'].sum(),
 'racing' : df_racing['SteamSpyPlayersEstimate'].sum(),
 'sports' : df_sports['SteamSpyPlayersEstimate'].sum()}
 
-fig, axs = plt.subplots(figsize=(20,20))
+fig, axs = plt.subplots(figsize=(20,16))
 plt.rcParams.update({'font.size': 22})
 plt.title('Genre Game players')
 names = list(data.keys()) 
@@ -176,7 +176,7 @@ data = {'action' : df_action['TotalRevenue'].sum(),
 'mmo' : df_mmo['TotalRevenue'].sum(),
 'ftp' : df_ftp['TotalRevenue'].sum()}
 
-fig, axs = plt.subplots(figsize=(20,20))
+fig, axs = plt.subplots(figsize=(20,16))
 plt.rcParams.update({'font.size': 22})
 plt.title('Genre Revenue')
 names = list(data.keys()) 
@@ -198,7 +198,7 @@ data = {'mmo' : df_mmo['TotalRevenue'].mean(),
 'casual' : df_casual['TotalRevenue'].mean(),
 'ftp' : df_ftp['TotalRevenue'].mean()}
 
-fig, axs = plt.subplots(figsize=(20,20))
+fig, axs = plt.subplots(figsize=(20,16))
 plt.rcParams.update({'font.size': 22})
 plt.title('Genre Revenue Average')
 names = list(data.keys()) 

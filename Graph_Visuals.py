@@ -40,7 +40,7 @@ plt.title('Genre Proportions')
 names = list(data.keys())
 values = list(data.values())
 axs.pie(values)
-axs.legend(loc='right',bbox_to_anchor=(1.12, .5),labels=names)
+axs.legend(loc='right',bbox_to_anchor=(1.2, .5),labels=names)
 plt.savefig('images/GenreFrequencyPie.png')
 
 

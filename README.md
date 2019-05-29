@@ -19,3 +19,6 @@ The data set that I found and used for my project is called [Steam Game Data](ht
 The first step was to see the portions of genres that my data included to do this I constructed a bar graph and a pie chart to easily see the proportions of each genre.
 
 ![alt text](https://github.com/shillis17/Capstone1/blob/master/images/GenreFrequencyBar.png)
+![alt text](https://github.com/shillis17/Capstone1/blob/master/images/GenreFrequencyPie.png)
+
+From these graphs we can see that the Indie genre has the most games in it, however all the games in the indie genre are also in other genres (most games have more than just one genre) and the only requirement to be in the Indie genre is the game was made by an indepentent game developer I made the same proportion visualization graphs without the Indie genre showing a more accurate display of the proportions of the game genres.

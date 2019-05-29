@@ -29,7 +29,7 @@ From these graphs we can see that the Indie genre has the most games in it, howe
 From here it is easier to see that the genres Action, Adventure, and Casual contain the most games in this data-set. These simple graphs highlight the saturation of games in the Action and Adventure genres that was stated in my question.
 From here I wanted to see more about the specific details in each genre. The first step was to find the costs of games in each genre. The next graph visualizes the cost of all games belonging to each genre.
 
-![alt text](https://github.com/shillis17/Capstone1/blob/mastert a/images/GenreGameCostsBar.png)
+![alt text](https://github.com/shillis17/Capstone1/blob/master/images/GenreGameCostsBar.png)
 
 However there is very little use to the total cost of each genre as some genres contain many more games the smaller genres. The next visualization uses the mean cost for each game to account for the size gap in each of the genres to get a better understanding of the per game cost for the consumer of each genre.
 

@@ -142,3 +142,59 @@ values = list(data.values())
 axs.bar(names,values)
 plt.xticks(rotation=90)
 plt.savefig('images/GenreSteamSpyPlayers.png')
+
+
+df_action['TotalRevenue'] = df_action['SteamSpyOwners']*df_action['PriceFinal']
+df_indie['TotalRevenue'] = df_indie['SteamSpyOwners']*df_indie['PriceFinal']
+df_adventure['TotalRevenue'] = df_adventure['SteamSpyOwners']*df_action['PriceFinal']
+df_rpg['TotalRevenue'] = df_rpg['SteamSpyOwners']*df_rpg['PriceFinal']
+df_strategy['TotalRevenue'] = df_strategy['SteamSpyOwners']*df_strategy['PriceFinal']
+df_simulation['TotalRevenue'] = df_simulation['SteamSpyOwners']*df_simulation['PriceFinal']
+df_casual['TotalRevenue'] = df_casual['SteamSpyOwners']*df_casual['PriceFinal']
+df_ftp['TotalRevenue'] = df_ftp['SteamSpyOwners']*df_ftp['PriceFinal']
+df_earlyaccess['TotalRevenue'] = df_earlyaccess['SteamSpyOwners']*df_earlyaccess['PriceFinal']
+df_mmo['TotalRevenue'] = df_mmo['SteamSpyOwners']*df_mmo['PriceFinal']
+df_racing['TotalRevenue'] = df_racing['SteamSpyOwners']*df_racing['PriceFinal']
+df_sports['TotalRevenue'] = df_sports['SteamSpyOwners']*df_sports['PriceFinal']
+
+data = {'action' : df_action['TotalRevenue'].sum(),
+'indie' : df_indie['TotalRevenue'].sum(),
+'strategy' : df_strategy['TotalRevenue'].sum(),
+'rpg' : df_rpg['TotalRevenue'].sum(),
+'adventure' : df_adventure['TotalRevenue'].sum(),
+'simulation' : df_simulation['TotalRevenue'].sum(),
+'earlyaccess' : df_earlyaccess['TotalRevenue'].sum(),
+'casual' : df_casual['TotalRevenue'].sum(),
+'racing' : df_racing['TotalRevenue'].sum(),
+'sports' : df_sports['TotalRevenue'].sum(),
+'mmo' : df_mmo['TotalRevenue'].sum(),
+'ftp' : df_ftp['TotalRevenue'].sum()}
+
+fig, axs = plt.subplots(figsize=(16,14))
+plt.title('Genre Revenue')
+names = list(data.keys()) 
+values = list(data.values())
+axs.bar(names,values)
+plt.xticks(rotation=90)
+plt.savefig('images/GenreRevenue.png')
+
+data = {'mmo' : df_mmo['TotalRevenue'].mean(),
+'action' : df_action['TotalRevenue'].mean(),
+'adventure' : df_adventure['TotalRevenue'].mean(),
+'rpg' : df_rpg['TotalRevenue'].mean(),
+'strategy' : df_strategy['TotalRevenue'].mean(),
+'racing' : df_racing['TotalRevenue'].mean(),
+'simulation' : df_simulation['TotalRevenue'].mean(),
+'sports' : df_sports['TotalRevenue'].mean(),
+'earlyaccess' : df_earlyaccess['TotalRevenue'].mean(),
+'indie' : df_indie['TotalRevenue'].mean(),
+'casual' : df_casual['TotalRevenue'].mean(),
+'ftp' : df_ftp['TotalRevenue'].mean()}
+
+fig, axs = plt.subplots(figsize=(16,14))
+plt.title('Genre Revenue Average')
+names = list(data.keys()) 
+values = list(data.values())
+axs.bar(names,values)
+plt.xticks(rotation=90)
+plt.savefig('images/GenreRevenueAverage.png')

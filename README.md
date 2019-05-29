@@ -83,9 +83,9 @@ The most surprising thing to me was that causal gaming was so low on the revenue
 
 Fora more detailed look into the specifics of the games I looked into the average review scores for each of the genres to see if the genres with more revenue tend to have higher reviews for their games usually meaning that the games are better received by the population. 
 
-	|Genre|Metacritic Score|Recommendations|
-	|-------|--------------------|-----------------------|
-	|test|test|test|
+|Genre|Metacritic Score|Recommendations|
+|-------|--------------------|-----------------------|
+|test|test|test|
 
 
 ### Conclusion

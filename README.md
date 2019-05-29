@@ -19,3 +19,4 @@ The data set that I found and used for my project is called [Steam Game Data](ht
 The first step was to see the portions of genres that my data included to do this I constructed a bar graph and a pie chart to easily see the proportions of each genre.
 
 ![alt text](https://github.com/shillis17/Capstone1/blob/master/images/GenreFrequencyBar.png)
+![alt text](https://github.com/shillis17/Capstone1/blob/master/images/GenreFrequencyPie.png)

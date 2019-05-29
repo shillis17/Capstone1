@@ -97,18 +97,18 @@ Fora more detailed look into the specifics of the games I looked into the averag
 
 |Genre|Metacritic Score|Recommendations|Revenue|
 |-------|--------------------|-----------------------|----------|
-|MMO|73.72|4791|4318509.26|
-|Action|71.56|1947|3391165.72|
-|Adventure|71.32|1073|3006711.91|
-|RPG|73.37|1710|2988753.88|
-|Strategy|72.11|821|2261507.91|
-|Racing|72.75|762|1822275.89|
-|Simulation|70.67|1047|1752667.90|
-|Sports|74.98|627|1696986.56|
-|Early Access|81.00|948|986870.04|
-|Indie|71.04|720|974278.43|
-|Casual|71.49|269|361600.91|
-FTP|71.00|14733|35744.18|
+|MMO|73.72|4791|$4,318,509.26|
+|Action|71.56|1947|$3,391,165.72|
+|Adventure|71.32|1073|$3,006,711.91|
+|RPG|73.37|1710|$2,988,753.88|
+|Strategy|72.11|821|$2,261,507.91|
+|Racing|72.75|762|$1,822,275.89|
+|Simulation|70.67|$1047|1,752,667.90|
+|Sports|74.98|627|$1,696,986.56|
+|Early Access|81.00|948|$986,870.04|
+|Indie|71.04|720|$974,278.43|
+|Casual|71.49|269|$361,600.91|
+FTP|71.00|14733|$35,744.18|
 
 Form the table above it does appear that for the most part the higher revenue a game has the more recommendations the game receives, however there does not appear to be a pattern in the Metacritic scores, to get a closer look at this I ran linear regression tests on the data to see the correlation of revenue to recommendations and Metacritic scores.
 

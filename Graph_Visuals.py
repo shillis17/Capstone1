@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
 df = pd.read_csv('data/clean_data.csv')
 df_genre = df.drop(['Unnamed: 0', 'QueryName', 'ReleaseDate', 'RequiredAge', 'DLCCount',\
        'Metacritic', 'RecommendationCount', 'SteamSpyOwners',\
@@ -11,7 +10,8 @@ df_genre = df.drop(['Unnamed: 0', 'QueryName', 'ReleaseDate', 'RequiredAge', 'DL
        'CategoryInAppPurchase', 'CategoryIncludeLevelEditor',\
        'CategoryVRSupport','PriceCurrency', 'PriceInitial', 'PriceFinal', 'Reviews'],axis=1)
 
-data = {'action' : df_genre['GenreIsAction'].sum(),
+data = {'indie' : df_genre['GenreIsIndie'].sum(),
+'action' : df_genre['GenreIsAction'].sum(),
 'adventure' : df_genre['GenreIsAdventure'].sum(),
 'casual' : df_genre['GenreIsCasual'].sum(),
 'strategy' : df_genre['GenreIsStrategy'].sum(),
@@ -25,23 +25,23 @@ data = {'action' : df_genre['GenreIsAction'].sum(),
 
 
 
-fig, axs = plt.subplots(figsize=(8,7))
-plt.rcParams.update({'font.size': 25})
+fig, axs = plt.subplots(figsize=(20,16))
+plt.rcParams.update({'font.size': 22})
 plt.title('Genre Frequency')
 names = list(data.keys())
 values = list(data.values())
 axs.bar(names,values)
 plt.xticks(rotation=90)
-plt.savefig('images/GenreFrequencyBarNoIndie.png')
+plt.savefig('images/GenreFrequencyBar.png')
 
-fig, axs = plt.subplots(figsize=(7,7))
-plt.rcParams.update({'font.size': 25})
+fig, axs = plt.subplots(figsize=(20,20))
+plt.rcParams.update({'font.size': 22})
 plt.title('Genre Proportions')
 names = list(data.keys())
 values = list(data.values())
 axs.pie(values)
-axs.legend(loc='right',bbox_to_anchor=(1.6, .5),labels=names)
-plt.savefig('images/GenreFrequencyPieNoIndie.png')
+axs.legend(loc='right',bbox_to_anchor=(1.12, .5),labels=names)
+plt.savefig('images/GenreFrequencyPie.png')
 
 
 df_indie = df[df.GenreIsIndie == True]
@@ -71,8 +71,8 @@ data = {'indie' : df_indie['PriceFinal'].sum(),
 'mmo' : df_mmo['PriceFinal'].sum(),
 'ftp' : df_ftp['PriceFinal'].sum()}
 
-fig, axs = plt.subplots(figsize=(8,7))
-plt.rcParams.update({'font.size': 25})
+fig, axs = plt.subplots(figsize=(20,20))
+plt.rcParams.update({'font.size': 22})
 plt.title('Genre Game Costs')
 names = list(data.keys())
 values = list(data.values())
@@ -94,8 +94,8 @@ data = {'sports' : df_sports['PriceFinal'].mean(),
 'casual' : df_casual['PriceFinal'].mean(),
 'ftp' : df_ftp['PriceFinal'].mean()}
 
-fig, axs = plt.subplots(figsize=(8,7))
-plt.rcParams.update({'font.size': 25})
+fig, axs = plt.subplots(figsize=(20,20))
+plt.rcParams.update({'font.size': 22})
 plt.title('Genre Game Costs Average')
 names = list(data.keys()) 
 values = list(data.values())
@@ -117,8 +117,8 @@ data = {'action' : df_action['SteamSpyOwners'].sum(),
 'racing' : df_racing['SteamSpyOwners'].sum(),
 'sports' : df_sports['SteamSpyOwners'].sum()}
 
-fig, axs = plt.subplots(figsize=(8,7))
-plt.rcParams.update({'font.size': 25})
+fig, axs = plt.subplots(figsize=(20,20))
+plt.rcParams.update({'font.size': 22})
 plt.title('Genre Game Owners')
 names = list(data.keys()) 
 values = list(data.values())
@@ -140,8 +140,8 @@ data = {'action' : df_action['SteamSpyPlayersEstimate'].sum(),
 'racing' : df_racing['SteamSpyPlayersEstimate'].sum(),
 'sports' : df_sports['SteamSpyPlayersEstimate'].sum()}
 
-fig, axs = plt.subplots(figsize=(8,7))
-plt.rcParams.update({'font.size': 25})
+fig, axs = plt.subplots(figsize=(20,20))
+plt.rcParams.update({'font.size': 22})
 plt.title('Genre Game players')
 names = list(data.keys()) 
 values = list(data.values())
@@ -176,8 +176,8 @@ data = {'action' : df_action['TotalRevenue'].sum(),
 'mmo' : df_mmo['TotalRevenue'].sum(),
 'ftp' : df_ftp['TotalRevenue'].sum()}
 
-fig, axs = plt.subplots(figsize=(8,7))
-plt.rcParams.update({'font.size': 25})
+fig, axs = plt.subplots(figsize=(20,20))
+plt.rcParams.update({'font.size': 22})
 plt.title('Genre Revenue')
 names = list(data.keys()) 
 values = list(data.values())
@@ -198,8 +198,8 @@ data = {'mmo' : df_mmo['TotalRevenue'].mean(),
 'casual' : df_casual['TotalRevenue'].mean(),
 'ftp' : df_ftp['TotalRevenue'].mean()}
 
-fig, axs = plt.subplots(figsize=(8,7))
-plt.rcParams.update({'font.size': 25})
+fig, axs = plt.subplots(figsize=(20,20))
+plt.rcParams.update({'font.size': 22})
 plt.title('Genre Revenue Average')
 names = list(data.keys()) 
 values = list(data.values())

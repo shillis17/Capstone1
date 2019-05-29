@@ -11,4 +11,11 @@ To begin my project I looked for a suitable data set that contains the informati
 
 From this information I am able to use the sample to estimate the amount of ‘player drop-off’ or players that own the game but no longer play the game, revenue from the game based on sales and price points of the game.
 
-The data set that I found and used for my project is called [Steam Game Data](https://data.world/craigkelly/steam-game-data) from data.world.
+The data set that I found and used for my project is called [Steam Game Data](https://data.world/craigkelly/steam-game-data) from data.world. Using this data-set I first put the data into a Pandas data-frame so that I can get familiar with my data and see if there is any data in the data-frame that is irrelevant to my project objective. During this step I found that there were many columns that are not useful for my objective. After trimming the extraneous data from my data-frame I began to graph my results.
+
+### Visualization
+	These graphs were constructed using Python’s MatPlotLib library.
+
+The first step was to see the portions of genres that my data included to do this I constructed a bar graph and a pie chart to easily see the proportions of each genre.
+
+![alt text](https://github.com/shillis17/Capstone1/blob/master/images/GenreFrequencyBar.png)

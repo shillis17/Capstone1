@@ -25,7 +25,7 @@ data = {'indie' : df_genre['GenreIsIndie'].sum(),
 
 
 
-fig, axs = plt.subplots(figsize=(8,7))
+fig, axs = plt.subplots(figsize=(16,14))
 plt.title('Genre Frequency')
 names = list(data.keys())
 values = list(data.values())

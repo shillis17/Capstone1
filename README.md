@@ -98,6 +98,14 @@ Fora more detailed look into the specifics of the games I looked into the averag
 |Casual|71.49|269|361600.91|
 FTP|71.00|14733|35744.18|
 
+Form the table above it does appear that for the most part the higher revenue a game has the more recommendations the game receives, however there does not appear to be a pattern in the Metacritic scores, to get a closer look at this I ran linear regression tests on the data to see the correlation of revenue to recommendations and Metacritic scores.
+
+The correlation value for revenue to recommendations received was r = -0.25
+
+The correlation value for revenue to Metacritic scores was r = -0.04
+
+These values being low mean that there is not a strong correlation between either of these measurements.
+
 
 ### Conclusion
 	The data that I have acquired represents a population, meaning that the data frame represents the total games that are available on the Steam games store when the data was taken.

@@ -112,3 +112,8 @@ These values being low mean that there is not a strong correlation between eithe
 
 From the evidence of the data it appears that the Action and Adventure do make more money per game than most of the other genres. MMO being the top earning games was at first a surprise until I looked into more of the costs for MMO games. They have a structure where is is very common for the MMO itself to charge a monthly subscription fee for player to continue accessing the game, while the Action and Adventure games are usually a one time price up front (with the exception of downloadable content). While this makes the MMO games acquire more money over time it also increases the price of develpoing such games, causing the developers to need to regularly update and maintain servers for the games to be hosted on where a single player action game does not require as frequent updates or the server costs associated with keeping the games online.
 
+### Future
+
+To further this project in the future I hope to add more data to my data-set so that I can keep this up to date with the current releases of games and see if the genre that generate the most money change and if developers will start to release more games that  fall into different genres as time goes on and the genre popularity changes.
+
+I would also like to continue more research to add onto this project aimed towards how game development in the past has reacted to mass shifts in gaming popularity and attitude of the players towards genres. 

@@ -1,6 +1,14 @@
 # Capstone1
 ## Steam Game Genre Analysis
 
+
+### Table of Contents
+=====================
+<!--ts-->
+ * [Description](#description)
+<!--te-->
+
+
 ### Description
 
 I have chosen to research the profitability of different genres of the games on the popular gaming platform Steam. The reason that I have chosen to do this research is that lately the majority of large title games that have been released have fallen under the genres of action or adventure. This research is based on the question, are these genres more inclined to make more money than the other genres?

@@ -68,7 +68,7 @@ Now that I have used the means to make the graph this time we can see that the M
 	
 From the data that was collected I want to construct solid conclusions about my data supported by statistical analysis. The graphs clearly show that the top 3 genres are MMO, Adventure, and Action. 
 
-To analyze the data more closely I want to look at the exact numbers themselves to get a more in depth understanding and increase my ability to more accurately draw conclusions about the data and explain the reasoning behind Action and Adventure have more potential revenue than the other genres.
+To analyze the data more closely I want to look at the exact numbers themselves to get a more in depth understanding and increase my ability to more accurately draw conclusions about the data and explain the reasoning behind Action and Adventure having more potential revenue than the other genres.
 
 The exact numbers for the amount of  average revenue for each game is as follows
 
@@ -85,7 +85,7 @@ The exact numbers for the amount of  average revenue for each game is as follows
 	Casual: 361600.91066134913
 	FTP : 35744.17857142857
 
-Free to play being the least revenue making genre is understandable as something that is for anyone to access the basic game will not make as much money as a game that costs money to play, however the data only takes into account the money spent on the game that is traceable through Steam, meaning that the transactions where handled by the Steam billing system. Many of these games have IAP or in app purchases that are through the game developers own website or billing system meaning that while the game is free and you can play it without spending money there is potential for more revenue than what is recorded in this data-set.
+Free to play being the least revenue making genre is understandable as something that is for anyone to access the basic game will not make as much money as a game that costs money to play, however the data only takes into account the money spent on the game that is traceable through Steam, meaning that the transactions that where handled by the Steam billing system. Many of these games have IAP or in app purchases that are through the game developers own website or billing system meaning that while the game is free and you can play it without spending money there is potential for more revenue than what is recorded in this data-set.
 
 The Strategy, Racing, Simulation and Sports genres not being at the top of the list is also understandable as the genres are aimed at a smaller audience than Action, Adventure, RPG, and MMO.
 These games are made for people who are into to the genre, and as such people who are not into sports will not enjoy playing a sports game or will be inclined to purchase such games. The RPG, Adventure, MMO, and Action genres  are much broader in how a game is classified as their genre, leading to a broader audience and proportionally more sales.

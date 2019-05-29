@@ -48,3 +48,8 @@ From this visualization I was able to see that the action genre has almost more 
 Unsurprisingly the graph does not appear to have changed much from the previous one,  since the genres that contain more games have made more revenue. To combat this I wanted to find the average revenue per game for the genres to make a more fair comparison, as the objective for my research is do certain genres make more money per game than others. 
 
 ![alt text](https://github.com/shillis17/Capstone1/blob/master/images/GenreRevenueAverage.png)
+
+Now that I have used the means to make the graph this time we can see that the MMO genre actually makes the most revenue per game, followed by the action and adventure genres. According to this data It appears that the action and adventure genres are inclined to make more money per game than most other genres.
+
+
+

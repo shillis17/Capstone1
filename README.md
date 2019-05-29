@@ -24,6 +24,6 @@ The first step was to see the portions of genres that my data included to do thi
 From these graphs we can see that the Indie genre has the most games in it, however all the games in the indie genre are also in other genres (most games have more than just one genre) and the only requirement to be in the Indie genre is the game was made by an independent game developer I made the same proportion visualization graphs without the Indie genre showing a more accurate display of the proportions of the game genres.
 
 ![alt text](https://github.com/shillis17/Capstone1/blob/master/images/GenreFrequencyBarNoIndie.png)
-![alt text](https://github.com/shillis17/Capstone1/blob/master/images/GenreFrequencyBarNoIndie.png)
+![alt text](https://github.com/shillis17/Capstone1/blob/master/images/GenreFrequencyPieNoIndie.png)
 
 From here it is easier to see that the genres Action, Adventure, and Casual contain the most games in this data-set.

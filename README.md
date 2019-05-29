@@ -103,7 +103,7 @@ Fora more detailed look into the specifics of the games I looked into the averag
 |RPG|73.37|1710|$2,988,753.88|
 |Strategy|72.11|821|$2,261,507.91|
 |Racing|72.75|762|$1,822,275.89|
-|Simulation|70.67|$1047|1,752,667.90|
+|Simulation|70.67|$1047|$1,752,667.90|
 |Sports|74.98|627|$1,696,986.56|
 |Early Access|81.00|948|$986,870.04|
 |Indie|71.04|720|$974,278.43|

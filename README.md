@@ -71,7 +71,7 @@ The exact numbers for the amount of  average revenue for each game is as follows
 	Early Access : 986870.0350634059
 	Indie : 974278.4347328264
 	Casual: 361600.91066134913
-	FTP : 35744.17857142857}
+	FTP : 35744.17857142857
 
 Free to play being the least revenue making genre is understandable as something that is for anyone to access the basic game will not make as much money as a game that costs money to play, however the data only takes into account the money spent on the game that is traceable through Steam, meaning that the transactions where handled by the Steam billing system. Many of these games have IAP or in app purchases that are through the game developers own website or billing system meaning that while the game is free and you can play it without spending money there is potential for more revenue than what is recorded in this data-set.
 
@@ -79,6 +79,13 @@ The Strategy, Racing, Simulation and Sports genres not being at the top of the l
 These games are made for people who are into to the genre, and as such people who are not into sports will not enjoy playing a sports game or will be inclined to purchase such games. The RPG, Adventure, MMO, and Action genres  are much broader in how a game is classified as their genre, leading to a broader audience and proportionally more sales.
 
 The most surprising thing to me was that causal gaming was so low on the revenue list as casual games have a lower cost to develop and are made for the broadest audience possible. 
+
+
+Fora more detailed look into the specifics of the games I looked into the average review scores for each of the genres to see if the genres with more revenue tend to have higher reviews for their games usually meaning that the games are better received by the population. 
+
+	|Genre|Metacritic Score|Recommendations|
+	|-------|--------------------|-----------------------|
+	|test|test|test|
 
 
 ### Conclusion

@@ -117,6 +117,21 @@ The correlation value for revenue to Metacritic scores was r = -0.04
 
 These low values mean that there is not a strong correlation between either of these measurements.
 
+|Genre|Owners|Players|Retention|
+------------------------------------------------
+| Action | 1,046,276,216 | 674,530,769 | .64 |
+| Indie | 533,269,463 | 359,102,718 | .65 |
+| Adventure | 414,452,931 | 271,965,471 | .66 |
+| RPG | 319,800,635 | 219,604,116 | .69 |
+| Strategy | 315,053,333 | 205,019,087 | .65 | 
+| Simulation | 205,980,138 | 155,846,278 | .76 |
+| Casual | 138,860,141 | 83,401,235 | .60 |
+| FTP | 80,763,714 | 63,477,190 | .79 |
+| Early Access | 68,221,323 | 54,131,959 | .79 |
+| MMO | 57,744,721 | 39,445,588 | .68 |
+| Racing |  41,428,184 | 28,233,271 | .68 |
+| Sports |  34,519,865 | 24,969,160 | .72 |
+
 
 ### Conclusion
     The data I obtained represents a population, meaning that the data frame represents the total games available on the Steam games store when the data was taken.

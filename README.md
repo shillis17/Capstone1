@@ -120,18 +120,18 @@ Last, an important key for game developers is player retention. The idea behind 
 
 |Genre|Owners|Players|AVG Retention|
 |-----|------|-------|---------|
-| Action | 1,046,276,216 | 674,530,769 | .64 |
-| Indie | 533,269,463 | 359,102,718 | .65 |
-| Adventure | 414,452,931 | 271,965,471 | .66 |
-| RPG | 319,800,635 | 219,604,116 | .69 |
-| Strategy | 315,053,333 | 205,019,087 | .65 | 
-| Simulation | 205,980,138 | 155,846,278 | .76 |
-| Casual | 138,860,141 | 83,401,235 | .60 |
-| FTP | 80,763,714 | 63,477,190 | .79 |
-| Early Access | 68,221,323 | 54,131,959 | .79 |
-| MMO | 57,744,721 | 39,445,588 | .68 |
-| Racing |  41,428,184 | 28,233,271 | .68 |
-| Sports |  34,519,865 | 24,969,160 | .72 |
+| Action | 1,046,276,216 | 674,530,769 | 64% |
+| Indie | 533,269,463 | 359,102,718 | 65% |
+| Adventure | 414,452,931 | 271,965,471 | 66% |
+| RPG | 319,800,635 | 219,604,116 | 69% |
+| Strategy | 315,053,333 | 205,019,087 | 65% | 
+| Simulation | 205,980,138 | 155,846,278 | 76% |
+| Casual | 138,860,141 | 83,401,235 | 60% |
+| FTP | 80,763,714 | 63,477,190 | 79% |
+| Early Access | 68,221,323 | 54,131,959 | 79% |
+| MMO | 57,744,721 | 39,445,588 | 68% |
+| Racing |  41,428,184 | 28,233,271 | 68% |
+| Sports |  34,519,865 | 24,969,160 | 72% |
 
 Based on the data I was surprised that none of the game genres had an average retention below 50%. 8/12 of the games fell within 60%-70% retention with the FTP  and Early access being the highest retention rates. From the data collected I can conclude that the retention rate does not have a strong correlation with the amount of revenue generated per genre.
 

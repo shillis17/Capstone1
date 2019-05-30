@@ -1,7 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+#Make visual representation of my data for analysis
 
+#Read in the clean data
 df = pd.read_csv('../data/clean_data.csv')
+#Drop rows that I will not visualize
 df_genre = df.drop(['Unnamed: 0', 'QueryName', 'ReleaseDate', 'RequiredAge', 'DLCCount',\
        'Metacritic', 'RecommendationCount', 'SteamSpyOwners',\
        'SteamSpyPlayersEstimate', 'AchievementCount', 'ControllerSupport',\
@@ -10,6 +13,7 @@ df_genre = df.drop(['Unnamed: 0', 'QueryName', 'ReleaseDate', 'RequiredAge', 'DL
        'CategoryInAppPurchase', 'CategoryIncludeLevelEditor',\
        'CategoryVRSupport','PriceCurrency', 'PriceInitial', 'PriceFinal', 'Reviews'],axis=1)
 
+#Make data-frames that only contain games in certain genres
 df_indie = df[df.GenreIsIndie == True]
 df_action = df[df.GenreIsAction == True]
 df_adventure = df[df.GenreIsAdventure == True]
@@ -23,6 +27,7 @@ df_racing = df[df.GenreIsRacing == True]
 df_mmo = df[df.GenreIsMassivelyMultiplayer == True]
 df_ftp = df[df.GenreIsFreeToPlay == True]
 
+#Add a new column of info to graph
 df_action['TotalRevenue'] = df_action['SteamSpyOwners']*df_action['PriceFinal']
 df_indie['TotalRevenue'] = df_indie['SteamSpyOwners']*df_indie['PriceFinal']
 df_adventure['TotalRevenue'] = df_adventure['SteamSpyOwners']*df_action['PriceFinal']
@@ -36,7 +41,7 @@ df_mmo['TotalRevenue'] = df_mmo['SteamSpyOwners']*df_mmo['PriceFinal']
 df_racing['TotalRevenue'] = df_racing['SteamSpyOwners']*df_racing['PriceFinal']
 df_sports['TotalRevenue'] = df_sports['SteamSpyOwners']*df_sports['PriceFinal']
 
-
+#Def a graph function to save time a space in code
 def graph(data,title,savePath):
     fig, axs = plt.subplots(figsize=(20,16))    
     plt.rcParams.update({'font.size': 22})
@@ -46,7 +51,8 @@ def graph(data,title,savePath):
     axs.bar(names,values)
     plt.xticks(rotation=90)
     plt.savefig(savePath)
-    
+
+#Initate data counting ammount of fames in each genre
 data = {'indie' : df_genre['GenreIsIndie'].sum(),
 'action' : df_genre['GenreIsAction'].sum(),
 'adventure' : df_genre['GenreIsAdventure'].sum(),
@@ -60,8 +66,10 @@ data = {'indie' : df_genre['GenreIsIndie'].sum(),
 'mmo' : df_genre['GenreIsMassivelyMultiplayer'].sum(),
 'ftp' : df_genre['GenreIsFreeToPlay'].sum()}
 
+#Call the graphing function
 graph(data,'Genre Frequency','../images/GenreFrequencyBar.png')
 
+#Initiate data for the sum of the cost for all games per genre
 data = {'indie' : df_indie['PriceFinal'].sum(),
 'action' : df_action['PriceFinal'].sum(),
 'adventure' : df_adventure['PriceFinal'].sum(),
@@ -75,8 +83,10 @@ data = {'indie' : df_indie['PriceFinal'].sum(),
 'mmo' : df_mmo['PriceFinal'].sum(),
 'ftp' : df_ftp['PriceFinal'].sum()}
 
+#Call the graphing function
 graph(data,'Genre Game Costs','../images/GenreGameCostsBar.png')
 
+#Iniate data for the mean of the costs per game of each genre
 data = {'sports' : df_sports['PriceFinal'].mean(),
 'mmo' : df_mmo['PriceFinal'].mean(),
 'simulation' : df_simulation['PriceFinal'].mean(),
@@ -90,8 +100,10 @@ data = {'sports' : df_sports['PriceFinal'].mean(),
 'casual' : df_casual['PriceFinal'].mean(),
 'ftp' : df_ftp['PriceFinal'].mean()}
 
+#Call the graphing function
 graph(data,'Genre Game Costs Average','../images/GenreGameCostsAvgBar.png')
 
+#Initiate data for the sum of owners of each game per genre
 data = {'action' : df_action['SteamSpyOwners'].sum(),
 'indie' : df_indie['SteamSpyOwners'].sum(),
 'adventure' : df_adventure['SteamSpyOwners'].sum(),
@@ -105,8 +117,11 @@ data = {'action' : df_action['SteamSpyOwners'].sum(),
 'racing' : df_racing['SteamSpyOwners'].sum(),
 'sports' : df_sports['SteamSpyOwners'].sum()}
 
+#Call the graphing function
 graph(data,'Genre Game Owners','../images/GenreSteamSpyOwners.png')
 
+
+#Intiate the data for sum of player count per genre
 data = {'action' : df_action['SteamSpyPlayersEstimate'].sum(),
 'indie' : df_indie['SteamSpyPlayersEstimate'].sum(),
 'adventure' : df_adventure['SteamSpyPlayersEstimate'].sum(),
@@ -120,8 +135,10 @@ data = {'action' : df_action['SteamSpyPlayersEstimate'].sum(),
 'racing' : df_racing['SteamSpyPlayersEstimate'].sum(),
 'sports' : df_sports['SteamSpyPlayersEstimate'].sum()}
 
+#Call the graphing function
 graph(data,'Genre Game players','../images/GenreSteamSpyPlayers.png')
 
+#Initiate the data for the sum revenue made per game per genre
 data = {'action' : df_action['TotalRevenue'].sum(),
 'indie' : df_indie['TotalRevenue'].sum(),
 'strategy' : df_strategy['TotalRevenue'].sum(),
@@ -135,8 +152,10 @@ data = {'action' : df_action['TotalRevenue'].sum(),
 'mmo' : df_mmo['TotalRevenue'].sum(),
 'ftp' : df_ftp['TotalRevenue'].sum()}
 
+#Call the graphing function
 graph(data,'Genre Revenue','../images/GenreRevenue.png')
 
+#Initiate the data for the average revenue per game per genre
 data = {'mmo' : df_mmo['TotalRevenue'].mean(),
 'action' : df_action['TotalRevenue'].mean(),
 'adventure' : df_adventure['TotalRevenue'].mean(),
@@ -150,4 +169,5 @@ data = {'mmo' : df_mmo['TotalRevenue'].mean(),
 'casual' : df_casual['TotalRevenue'].mean(),
 'ftp' : df_ftp['TotalRevenue'].mean()}
 
+#Call teh graphing function
 graph(data,'Genre Revenue Average','../images/GenreRevenueAverage.png')

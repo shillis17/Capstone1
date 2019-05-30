@@ -1,6 +1,7 @@
 import pandas as pd
-
 #Clean my dataframe, remove uneeded information from the dataframe so the data is more fucused.
+
+#Removed columns that contain info that is not helpful for my analysis
 df = pd.read_csv('../data/games-features.csv')
 df = df.drop(['QueryID','ResponseID','ResponseName',\
               'DemoCount','DeveloperCount',\
@@ -18,11 +19,10 @@ df = df.drop(['QueryID','ResponseID','ResponseName',\
               'SupportedLanguages', 'Website', 'PCMinReqsText',\
                'PCRecReqsText','LinuxMinReqsText','LinuxRecReqsText',\
               'MacMinReqsText','MacRecReqsText','CategoryIncludeSrcSDK'],axis=1)
-print(df.columns)
 
-#Remove duplicate rows
+#Remove duplicate rows to remove redundancy
 df = df.drop_duplicates()
-#Remove games that are no longer for sale and remove the row
+#Remove games that are no longer for sale
 df = df[df.PurchaseAvail != False]
 df = df.drop(['PurchaseAvail'],axis=1)
 #Remove any non games as it will effect data of games

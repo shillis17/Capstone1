@@ -118,7 +118,7 @@ The correlation value for revenue to Metacritic scores was r = -0.04
 These low values mean that there is not a strong correlation between either of these measurements.
 
 |Genre|Owners|Players|Retention|
-------------------------------------------------
+|-----|------|-------|---------|
 | Action | 1,046,276,216 | 674,530,769 | .64 |
 | Indie | 533,269,463 | 359,102,718 | .65 |
 | Adventure | 414,452,931 | 271,965,471 | .66 |

@@ -119,7 +119,7 @@ These low values mean that there is not a strong correlation between either of t
 Last, an important key for game developers is player retention. The idea behind how long a player will play the game actively. This is especially important for games that have online functions, IAPs, and membership (subscription) fees as this will increase the chances that a player will spend money in their game on extra content or exclusive items.
 
 |Genre|Owners|Players|AVG Retention|
-|-----|------|-------|---------|
+|-----|------|-------|-------------|
 | Action | 1,046,276,216 | 674,530,769 | 64% |
 | Indie | 533,269,463 | 359,102,718 | 65% |
 | Adventure | 414,452,931 | 271,965,471 | 66% |

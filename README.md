@@ -71,18 +71,18 @@ To analyze the data more closely I want to look at the exact numbers themselves 
 
 The exact numbers for the amount of average revenue for each game is as follows
 
-    MMO: 4,318,509.26
-    Action: 3,391,165.72
-    Adventure: 3,006,711.91
-    RPG: 2,988,753.88
-    Strategy: 2,261,507.91
-    Racing: 1,822,275.89
-    Simulation: 1,752,667.60
-    Sports: 1,696,986.56
-    Early Access: 986,870.04
-    Indie: 974,278.43
-    Casual: 361,600.91
-    FTP: 35,744.18
+    MMO: $4,318,509.26
+    Action: $3,391,165.72
+    Adventure: $3,006,711.91
+    RPG: $2,988,753.88
+    Strategy: $2,261,507.91
+    Racing: $1,822,275.89
+    Simulation: $1,752,667.60
+    Sports: $1,696,986.56
+    Early Access: $986,870.04
+    Indie: $974,278.43
+    Casual: $361,600.91
+    FTP: $35,744.18
 
 Free to play is the least revenue making genre is understood as something is for anyone to access the basic game will not make as much money as a game that costs money to play, however the data only takes into account the money spent on the game traceable through Steam, meaning that the transactions that where handled by the Steam billing system. Many of these games have IAP or in-app purchases are through the game developers own website or billing system meaning that while the game is free and you can play it without spending money there is potential for more revenue than what is recorded in this data-set. 
 

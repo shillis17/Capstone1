@@ -99,15 +99,15 @@ The exact numbers for the amount of average revenue for each game is as follows
     Casual: 361,600.91
     FTP: 35,744.18
 
-Free to play is the least revenue making genre is understood as something is for anyone to access the basic game will not make as much money as a game that costs money to play, however the data only takes into account the money spent on the game traceable through Steam, meaning that the transactions that where handled by the Steam billing system. Many of these games have IAP or in-app purchases are through the game developers own website or billing system meaning that while the game is free and you can play it without spending money there is potential for more revenue than what is recorded in this data-set.
+Free to play is the least revenue making genre is understood as something is for anyone to access the basic game will not make as much money as a game that costs money to play, however the data only takes into account the money spent on the game traceable through Steam, meaning that the transactions that where handled by the Steam billing system. Many of these games have IAP or in-app purchases are through the game developers own website or billing system meaning that while the game is free and you can play it without spending money there is potential for more revenue than what is recorded in this data-set. 
 
-The Strategy, Racing, Simulation and Sports genres not being at the top of the list is also understandable as the genres are aimed at a smaller audience than Action, Adventure, RPG and MMO.
-These games are made for people are into the genre, and people are not into sports will not enjoy playing a sports game or will be inclined to purchase such games. The RPG, Adventure, MMO, and Action genres are much broader in how a game is classified as their genre, leading to a broader audience and proportionally more sales.
+The Strategy, Racing, Simulation and Sports genres not being at the top of the list is also understandable as the genres are aimed at a smaller audience than Action, Adventure, RPG and MMO. 
+These games are made for people are into the genre, and people are not into sports will not enjoy playing a sports game or will be inclined to purchase such games. The RPG, Adventure, MMO, and Action genres are much broader in how a game is classified as their genre, leading to a broader audience and proportionally more sales. 
 
 The most surprising data was that casual gaming was so low on the revenue list as casual games have a lower cost to develop and are made for the broadest audience possible. 
 
 
-For a more detailed insight into the specifics of the games, I investigated the average review scores for each of the genres to see if the genres with more revenue have higher reviews for their games usually meaning that the games are better received by the population. 
+For a more detailed insight into the specifics of the games, I investigated the average review scores for each of the genres to observe if the genres with more revenue have higher reviews for their games usually meaning that the games are better received by the population. 
 
 |Genre|Metacritic Score|Recommendations|Revenue|
 |-------|--------------------|-----------------------|----------|
@@ -143,4 +143,3 @@ From the evidence of the data, the Action and Adventure make more money per game
 To further this project I hope to add more data to my data-set so I can keep this up to date with the current releases of games and predict if the genre that generates the most money change if developers will release more games that fall into different genres as time goes on and the genre popularity changes.
 
 I would also like to continue more research to add to this project aimed towards how game development in the past has reacted to mass shifts in gaming popularity and attitude of the players towards genres. 
-

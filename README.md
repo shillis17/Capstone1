@@ -12,21 +12,6 @@
  * [Future](#future)
 <!--te-->
 
-
-# Capstone1
-## Steam Game Genre Analysis
-
-
-### Table of Contents
-<!--ts-->
- * [Description](#description)
- * [Process](#process)
- * [Visualization](#visualization)
- * [Analysis](#analysis)
- * [Conclusion](#conclusion)
- * [Future](#future)
-<!--te-->
-
 ### Description
 
 I have researched the profitability of different genres of the games on the popular gaming platform Steam. The reason I have done this research is that lately, most large title games that have been released have fallen under the genres of Action or Adventure. This research is based on the question, are these genres more inclined to make more money than the other genres?

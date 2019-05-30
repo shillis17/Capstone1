@@ -95,19 +95,19 @@ The most surprising data was that casual gaming was so low on the revenue list a
 For a more detailed insight into the specifics of the games, I investigated the average review scores for each of the genres to observe if the genres with more revenue have higher reviews for their games usually meaning that the games are better received by the population. 
 
 |Genre|Metacritic Score|Recommendations|Revenue|
-|-------|--------------------|-----------------------|----------|
-|MMO|73.72|4791|$4,318,509.26|
-|Action|71.56|1947|$3,391,165.72|
-|Adventure|71.32|1073|$3,006,711.91|
-|RPG|73.37|1710|$2,988,753.88|
-|Strategy|72.11|821|$2,261,507.91|
-|Racing|72.75|762|$1,822,275.89|
-|Simulation|70.67|1047|$1,752,667.90|
-|Sports|74.98|627|$1,696,986.56|
-|Early Access|81.00|948|$986,870.04|
-|Indie|71.04|720|$974,278.43|
-|Casual|71.49|269|$361,600.91|
-|FTP|71.00|14733|$35,744.18|
+|-----|----------------|---------------|-------|
+| MMO | 73.72 | 4791 | $4,318,509.26 |
+| Action | 71.56 | 1947 | $3,391,165.72 |
+| Adventure | 71.32 | 1073 | $3,006,711.91 |
+| RPG | 73.37 | 1710 | $2,988,753.88 |
+| Strategy | 72.11 | 821 | $2,261,507.91 |
+| Racing | 72.75 | 762 | $1,822,275.89 |
+| Simulation | 70.67 | 1047 | $1,752,667.90 |
+| Sports | 74.98 | 627 | $1,696,986.56 |
+| Early Access | 81.00 | 948 | $986,870.04 |
+| Indie | 71.04 | 720 | $974,278.43 |
+| Casual | 71.49 | 269 | $361,600.91 |
+| FTP | 71.00 | 14733 | $35,744.18 |
 
 From the table above the higher revenue games have, the more recommendations the game receives, however, there does not appear to be a pattern in the Metacritic scores, to get a closer view of the correlation I ran linear regression tests on the data to gain insight about the correlation of revenue to recommendations and Metacritic scores.
 
@@ -119,19 +119,19 @@ These low values mean that there is not a strong correlation between either of t
 Last, an important key for game developers is player retention. The idea behind how long a player will play the game actively. This is especially important for games that have online functions, IAPs, and membership (subscription) fees as this will increase the chances that a player will spend money in their game on extra content or exclusive items.
 
 |Genre|Owners|Players|AVG Retention|
-|-----|------|-------|---------|
-| Action | 1,046,276,216 | 674,530,769 | .64 |
-| Indie | 533,269,463 | 359,102,718 | .65 |
-| Adventure | 414,452,931 | 271,965,471 | .66 |
-| RPG | 319,800,635 | 219,604,116 | .69 |
-| Strategy | 315,053,333 | 205,019,087 | .65 | 
-| Simulation | 205,980,138 | 155,846,278 | .76 |
-| Casual | 138,860,141 | 83,401,235 | .60 |
-| FTP | 80,763,714 | 63,477,190 | .79 |
-| Early Access | 68,221,323 | 54,131,959 | .79 |
-| MMO | 57,744,721 | 39,445,588 | .68 |
-| Racing |  41,428,184 | 28,233,271 | .68 |
-| Sports |  34,519,865 | 24,969,160 | .72 |
+|-----|------|-------|-------------|
+| Action | 1,046,276,216 | 674,530,769 | 64% |
+| Indie | 533,269,463 | 359,102,718 | 65% |
+| Adventure | 414,452,931 | 271,965,471 | 66% |
+| RPG | 319,800,635 | 219,604,116 | 69% |
+| Strategy | 315,053,333 | 205,019,087 | 65% | 
+| Simulation | 205,980,138 | 155,846,278 | 76% |
+| Casual | 138,860,141 | 83,401,235 | 60% |
+| FTP | 80,763,714 | 63,477,190 | 79% |
+| Early Access | 68,221,323 | 54,131,959 | 79% |
+| MMO | 57,744,721 | 39,445,588 | 68% |
+| Racing |  41,428,184 | 28,233,271 | 68% |
+| Sports |  34,519,865 | 24,969,160 | 72% |
 
 Based on the data I was surprised that none of the game genres had an average retention below 50%. 8/12 of the games fell within 60%-70% retention with the FTP  and Early access being the highest retention rates. From the data collected I can conclude that the retention rate does not have a strong correlation with the amount of revenue generated per genre.
 

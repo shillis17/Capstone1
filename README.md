@@ -6,6 +6,13 @@
 <!--ts-->
  * [Description](#description)
  * [Process](#process)
+ * [Visualization](#visualization)
+ * [Analysis](#analysis)
+ * [Conclusion](#conclusion)
+ * [Future](#future)
+<!--te-->
+
+
 # Capstone1
 ## Steam Game Genre Analysis
 

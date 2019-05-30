@@ -112,12 +112,13 @@ For a more detailed insight into the specifics of the games, I investigated the 
 From the table above the higher revenue games have, the more recommendations the game receives, however, there does not appear to be a pattern in the Metacritic scores, to get a closer view of the correlation I ran linear regression tests on the data to gain insight about the correlation of revenue to recommendations and Metacritic scores.
 
 The correlation value for revenue to recommendations received was r = -0.25
-
 The correlation value for revenue to Metacritic scores was r = -0.04
 
 These low values mean that there is not a strong correlation between either of these measurements.
 
-|Genre|Owners|Players|Retention|
+Last, an important key for game developers is player retention. The idea behind how long a player will play the game actively. This is especially important for games that have online functions, IAPs, and membership (subscription) fees as this will increase the chances that a player will spend money in their game on extra content or exclusive items.
+
+|Genre|Owners|Players|AVG Retention|
 |-----|------|-------|---------|
 | Action | 1,046,276,216 | 674,530,769 | .64 |
 | Indie | 533,269,463 | 359,102,718 | .65 |
@@ -132,6 +133,7 @@ These low values mean that there is not a strong correlation between either of t
 | Racing |  41,428,184 | 28,233,271 | .68 |
 | Sports |  34,519,865 | 24,969,160 | .72 |
 
+Based on the data I was surprised that none of the game genres had an average retention below 50%. 8/12 of the games fell within 60%-70% retention with the FTP  and Early access being the highest retention rates. From the data collected I can conclude that the retention rate does not have a strong correlation with the amount of revenue generated per genre.
 
 ### Conclusion
     The data I obtained represents a population, meaning that the data frame represents the total games available on the Steam games store when the data was taken.

@@ -29,4 +29,4 @@ df = df.drop(['PurchaseAvail'],axis=1)
 df = df[df.GenreIsNonGame != True]
 df = df.drop(['GenreIsNonGame'],axis=1)
 #Save dataframe for easy access in the future
-df.to_csv('data/clean_data.csv')
+df.to_csv('../data/clean_data.csv')

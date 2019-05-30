@@ -1,7 +1,7 @@
 import pandas as pd
 
 #Clean my dataframe, remove uneeded information from the dataframe so the data is more fucused.
-df = pd.read_csv('data/games-features.csv')
+df = pd.read_csv('../data/games-features.csv')
 df = df.drop(['QueryID','ResponseID','ResponseName',\
               'DemoCount','DeveloperCount',\
               'MovieCount','PackageCount',\

@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('data/clean_data.csv')
+df = pd.read_csv('../data/clean_data.csv')
 df_genre = df.drop(['Unnamed: 0', 'QueryName', 'ReleaseDate', 'RequiredAge', 'DLCCount',\
        'Metacritic', 'RecommendationCount', 'SteamSpyOwners',\
        'SteamSpyPlayersEstimate', 'AchievementCount', 'ControllerSupport',\
@@ -60,7 +60,7 @@ data = {'indie' : df_genre['GenreIsIndie'].sum(),
 'mmo' : df_genre['GenreIsMassivelyMultiplayer'].sum(),
 'ftp' : df_genre['GenreIsFreeToPlay'].sum()}
 
-graph(data,'Genre Frequency','images/GenreFrequencyBar.png')
+graph(data,'Genre Frequency','../images/GenreFrequencyBar.png')
 
 data = {'indie' : df_indie['PriceFinal'].sum(),
 'action' : df_action['PriceFinal'].sum(),
@@ -75,7 +75,7 @@ data = {'indie' : df_indie['PriceFinal'].sum(),
 'mmo' : df_mmo['PriceFinal'].sum(),
 'ftp' : df_ftp['PriceFinal'].sum()}
 
-graph(data,'Genre Game Costs','images/GenreGameCostsBar.png')
+graph(data,'Genre Game Costs','../images/GenreGameCostsBar.png')
 
 data = {'sports' : df_sports['PriceFinal'].mean(),
 'mmo' : df_mmo['PriceFinal'].mean(),
@@ -90,7 +90,7 @@ data = {'sports' : df_sports['PriceFinal'].mean(),
 'casual' : df_casual['PriceFinal'].mean(),
 'ftp' : df_ftp['PriceFinal'].mean()}
 
-graph(data,'Genre Game Costs Average','images/GenreGameCostsAvgBar.png')
+graph(data,'Genre Game Costs Average','../images/GenreGameCostsAvgBar.png')
 
 data = {'action' : df_action['SteamSpyOwners'].sum(),
 'indie' : df_indie['SteamSpyOwners'].sum(),
@@ -105,7 +105,7 @@ data = {'action' : df_action['SteamSpyOwners'].sum(),
 'racing' : df_racing['SteamSpyOwners'].sum(),
 'sports' : df_sports['SteamSpyOwners'].sum()}
 
-graph(data,'Genre Game Owners','images/GenreSteamSpyOwners.png')
+graph(data,'Genre Game Owners','../images/GenreSteamSpyOwners.png')
 
 data = {'action' : df_action['SteamSpyPlayersEstimate'].sum(),
 'indie' : df_indie['SteamSpyPlayersEstimate'].sum(),
@@ -120,7 +120,7 @@ data = {'action' : df_action['SteamSpyPlayersEstimate'].sum(),
 'racing' : df_racing['SteamSpyPlayersEstimate'].sum(),
 'sports' : df_sports['SteamSpyPlayersEstimate'].sum()}
 
-graph(data,'Genre Game players','images/GenreSteamSpyPlayers.png')
+graph(data,'Genre Game players','../images/GenreSteamSpyPlayers.png')
 
 data = {'action' : df_action['TotalRevenue'].sum(),
 'indie' : df_indie['TotalRevenue'].sum(),
@@ -135,7 +135,7 @@ data = {'action' : df_action['TotalRevenue'].sum(),
 'mmo' : df_mmo['TotalRevenue'].sum(),
 'ftp' : df_ftp['TotalRevenue'].sum()}
 
-graph(data,'Genre Revenue','images/GenreRevenue.png')
+graph(data,'Genre Revenue','../images/GenreRevenue.png')
 
 data = {'mmo' : df_mmo['TotalRevenue'].mean(),
 'action' : df_action['TotalRevenue'].mean(),
@@ -150,4 +150,4 @@ data = {'mmo' : df_mmo['TotalRevenue'].mean(),
 'casual' : df_casual['TotalRevenue'].mean(),
 'ftp' : df_ftp['TotalRevenue'].mean()}
 
-graph(data,'Genre Revenue Average','images/GenreRevenueAverage.png')
+graph(data,'Genre Revenue Average','../images/GenreRevenueAverage.png')

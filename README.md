@@ -90,10 +90,10 @@ Free to play being the least revenue making genre is understandable as something
 The Strategy, Racing, Simulation and Sports genres not being at the top of the list is also understandable as the genres are aimed at a smaller audience than Action, Adventure, RPG, and MMO.
 These games are made for people who are into to the genre, and as such people who are not into sports will not enjoy playing a sports game or will be inclined to purchase such games. The RPG, Adventure, MMO, and Action genres  are much broader in how a game is classified as their genre, leading to a broader audience and proportionally more sales.
 
-The most surprising thing to me was that causal gaming was so low on the revenue list as casual games have a lower cost to develop and are made for the broadest audience possible. 
+The most surprising data was that causal gaming was so low on the revenue list as casual games have a lower cost to develop and are made for the broadest audience possible. 
 
 
-Fora more detailed look into the specifics of the games I looked into the average review scores for each of the genres to see if the genres with more revenue tend to have higher reviews for their games usually meaning that the games are better received by the population. 
+For a more detailed look into the specifics of the games I looked into the average review scores for each of the genres to see if the genres with more revenue tend to have higher reviews for their games usually meaning that the games are better received by the population. 
 
 |Genre|Metacritic Score|Recommendations|Revenue|
 |-------|--------------------|-----------------------|----------|
@@ -108,21 +108,21 @@ Fora more detailed look into the specifics of the games I looked into the averag
 |Early Access|81.00|948|$986,870.04|
 |Indie|71.04|720|$974,278.43|
 |Casual|71.49|269|$361,600.91|
-FTP|71.00|14733|$35,744.18|
+|FTP|71.00|14733|$35,744.18|
 
-Form the table above it does appear that for the most part the higher revenue a game has the more recommendations the game receives, however there does not appear to be a pattern in the Metacritic scores, to get a closer look at this I ran linear regression tests on the data to see the correlation of revenue to recommendations and Metacritic scores.
+From the table above it does appear that the higher revenue a game has the more recommendations the game receives, however there does not appear to be a pattern in the Metacritic scores, to get a closer look at this I ran linear regression tests on the data to see the correlation of revenue to recommendations and Metacritic scores.
 
 The correlation value for revenue to recommendations received was r = -0.25
 
 The correlation value for revenue to Metacritic scores was r = -0.04
 
-These values being low mean that there is not a strong correlation between either of these measurements.
+These low values mean that there is not a strong correlation between either of these measurements.
 
 
 ### Conclusion
 	The data that I have acquired represents a population, meaning that the data frame represents the total games that are available on the Steam games store when the data was taken.
 
-From the evidence of the data it appears that the Action and Adventure do make more money per game than most of the other genres. MMO being the top earning games was at first a surprise until I looked into more of the costs for MMO games. They have a structure where is is very common for the MMO itself to charge a monthly subscription fee for player to continue accessing the game, while the Action and Adventure games are usually a one time price up front (with the exception of downloadable content). While this makes the MMO games acquire more money over time it also increases the price of develpoing such games, causing the developers to need to regularly update and maintain servers for the games to be hosted on where a single player action game does not require as frequent updates or the server costs associated with keeping the games online.
+From the evidence of the data it appears that the Action and Adventure do make more money per game than most of the other genres. MMO being the top earning games was at first a surprise until I looked into more of the costs for MMO games. They have a structure where is very common for the MMO itself to charge a monthly subscription fee for player to continue accessing the game, while the Action and Adventure games are usually a one time price up front (with the exception of downloadable content). While this makes the MMO games acquire more money over time it also increases the price of develpoing such games, causing the developers to need to regularly update and maintain servers for the games to be hosted on where a single player action game does not require as frequent updates or the server costs associated with keeping the games online.
 
 ### Future
 

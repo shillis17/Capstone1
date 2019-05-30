@@ -95,19 +95,19 @@ The most surprising data was that casual gaming was so low on the revenue list a
 For a more detailed insight into the specifics of the games, I investigated the average review scores for each of the genres to observe if the genres with more revenue have higher reviews for their games usually meaning that the games are better received by the population. 
 
 |Genre|Metacritic Score|Recommendations|Revenue|
-|-------|--------------------|-----------------------|----------|
-|MMO|73.72|4791|$4,318,509.26|
-|Action|71.56|1947|$3,391,165.72|
-|Adventure|71.32|1073|$3,006,711.91|
-|RPG|73.37|1710|$2,988,753.88|
-|Strategy|72.11|821|$2,261,507.91|
-|Racing|72.75|762|$1,822,275.89|
-|Simulation|70.67|1047|$1,752,667.90|
-|Sports|74.98|627|$1,696,986.56|
-|Early Access|81.00|948|$986,870.04|
-|Indie|71.04|720|$974,278.43|
-|Casual|71.49|269|$361,600.91|
-|FTP|71.00|14733|$35,744.18|
+|-----|----------------|---------------|-------|
+| MMO | 73.72 | 4791 | $4,318,509.26 |
+| Action | 71.56 | 1947 | $3,391,165.72 |
+| Adventure | 71.32 | 1073 | $3,006,711.91 |
+| RPG | 73.37 | 1710 | $2,988,753.88 |
+| Strategy | 72.11 | 821 | $2,261,507.91 |
+| Racing | 72.75 | 762 | $1,822,275.89 |
+| Simulation | 70.67 | 1047 | $1,752,667.90 |
+| Sports | 74.98 | 627 | $1,696,986.56 |
+| Early Access | 81.00 | 948 | $986,870.04 |
+| Indie | 71.04 | 720 | $974,278.43 |
+| Casual | 71.49 | 269 | $361,600.91 |
+| FTP | 71.00 | 14733 | $35,744.18 |
 
 From the table above the higher revenue games have, the more recommendations the game receives, however, there does not appear to be a pattern in the Metacritic scores, to get a closer view of the correlation I ran linear regression tests on the data to gain insight about the correlation of revenue to recommendations and Metacritic scores.
 

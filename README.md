@@ -1,6 +1,8 @@
 # Capstone1
 ## Steam Game Genre Analysis
 
+ ![alt text](https://github.com/shillis17/Capstone1/blob/master/images/SteamBanner.png)
+ #### Seth Hillis | Galvanize DSI | May 27 2019
 
 ### Table of Contents
 <!--ts-->

@@ -14,11 +14,11 @@ Table of Contents
  * [Conclusion](#conclusion)
  * [Future](#future)
 <!--te-->
-
+***
 ### Description
 
 I have researched the profitability of different genres of the games on the popular gaming platform [Steam](https://store.steampowered.com/). The reason I have done this research is that lately, most large title games that have been released have fallen under the genres of Action or Adventure. This research is based on the question, are these genres more inclined to make more money than the other genres?
-
+***
 ### Process
 
 To begin my project, I looked for a suitable data set that contains the information I require, this information is the title of each game, genre(s), the number of owners, the number of players, and the cost of each game.
@@ -26,7 +26,7 @@ To begin my project, I looked for a suitable data set that contains the informat
 From this information, I can use the sample to estimate the amount of ‘player drop-off’ or players that own the game but no longer play the game, revenue from the game based on sales and price points of the game.
 
 The data set I found and used for my project is called [Steam Game Data](https://data.world/craigkelly/steam-game-data) from data.world. Using this dataset, I first put the data into a Pandas data-frame so I can get familiar with my data and see if there is any data in the data frame irrelevant to my project aim. During this step, I found that there were many columns that are not useful for my aim. After trimming the extraneous data from my data-frame I began to graph my results.
-
+***
 ### Visualization
     These graphs were constructed using Python’s Matplotlib library.
 
@@ -64,7 +64,7 @@ Unsurprisingly, the graph does not appear to have changed much from the previous
 ![alt text](https://github.com/shillis17/Capstone1/blob/master/images/GenreRevenueAverage.png)
 
 Now I have used the means to make the graph this time we can see that the MMO genre makes the most revenue per game, followed by the Action and Adventure genres. According to this data, the Action and Adventure genres are inclined to make more money per game than most other genres.
-
+***
 ### Analysis
     While the visuals are a great way to summarize my data I want to look more into specifics and draw conclusions about why the total revenue is greater for certain games.
     
@@ -137,12 +137,12 @@ Last, an important key for game developers is player retention. The idea behind 
 | Sports |  34,519,865 | 24,969,160 | 72% |
 
 Based on the data I was surprised that none of the game genres had an average retention below 50%. 8/12 of the games fell within 60%-70% retention with the FTP  and Early access being the highest retention rates. From the data collected I can conclude that the retention rate does not have a strong correlation with the amount of revenue generated per genre.
-
+***
 ### Conclusion
     The data I obtained represents a population, meaning that the data frame represents the total games available on the Steam games store when the data was taken.
 
 From the evidence of the data, the Action and Adventure make more money per game than most of the other genres. MMO being the top earning games was at first a surprise until I investigated more of the costs for MMO games. They are structured where it is common for the MMO itself to charge a monthly subscription fee for a player to continue accessing the game, while the Action and Adventure games are usually a onetime price up front (except for downloadable content). While this makes the MMO games gain more money over time it also increases the price of developing such games, causing the developers to need to regularly update and maintain servers for the games to be hosted on where a single player Action game does not require as frequent updates or the server costs associated with keeping the games online.
-
+***
 ### Future
 
 To further this project I hope to add more data to my data-set so I can keep this up to date with the current releases of games and predict if the genre that generates the most money change if developers will release more games that fall into different genres as time goes on and the genre popularity changes.

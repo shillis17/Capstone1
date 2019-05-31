@@ -42,9 +42,9 @@ df_racing['TotalRevenue'] = df_racing['SteamSpyOwners']*df_racing['PriceFinal']
 df_sports['TotalRevenue'] = df_sports['SteamSpyOwners']*df_sports['PriceFinal']
 
 #Def a graph function to save time a space in code
+plt.rcParams.update({'font.size': 22})
 def graph(data,title,savePath):
     fig, axs = plt.subplots(figsize=(20,16))    
-    plt.rcParams.update({'font.size': 22})
     plt.title(title)
     names = list(data.keys())
     values = list(data.values())

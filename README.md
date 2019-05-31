@@ -16,7 +16,7 @@
 
 ### Description
 
-I have researched the profitability of different genres of the games on the popular gaming platform Steam. The reason I have done this research is that lately, most large title games that have been released have fallen under the genres of Action or Adventure. This research is based on the question, are these genres more inclined to make more money than the other genres?
+I have researched the profitability of different genres of the games on the popular gaming platform [Steam](https://store.steampowered.com/). The reason I have done this research is that lately, most large title games that have been released have fallen under the genres of Action or Adventure. This research is based on the question, are these genres more inclined to make more money than the other genres?
 
 ### Process
 
@@ -24,7 +24,7 @@ To begin my project, I looked for a suitable data set that contains the informat
 
 From this information, I can use the sample to estimate the amount of ‘player drop-off’ or players that own the game but no longer play the game, revenue from the game based on sales and price points of the game.
 
-The data set I found and used for my project is called [Steam Game Data] (https://data.world/craigkelly/steam-game-data) from data.world. Using this dataset, I first put the data into a Pandas data-frame so I can get familiar with my data and see if there is any data in the data frame irrelevant to my project aim. During this step, I found that there were many columns that are not useful for my aim. After trimming the extraneous data from my data-frame I began to graph my results.
+The data set I found and used for my project is called [Steam Game Data](https://data.world/craigkelly/steam-game-data) from data.world. Using this dataset, I first put the data into a Pandas data-frame so I can get familiar with my data and see if there is any data in the data frame irrelevant to my project aim. During this step, I found that there were many columns that are not useful for my aim. After trimming the extraneous data from my data-frame I began to graph my results.
 
 ### Visualization
     These graphs were constructed using Python’s Matplotlib library.

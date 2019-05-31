@@ -4,9 +4,8 @@
  ![alt text](https://github.com/shillis17/Capstone1/blob/master/images/SteamBanner.png)
  #### Seth Hillis | Galvanize DSI | May 27 2019
  
-<details>
-<summary>### Table of Contents
-<br>
+
+Table of Contents
 <!--ts-->
  * [Description](#description)
  * [Process](#process)
@@ -15,7 +14,6 @@
  * [Conclusion](#conclusion)
  * [Future](#future)
 <!--te-->
- </details>
 
 ### Description
 
